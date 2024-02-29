@@ -140,7 +140,6 @@ public class CribStrategy {
             double avg = statKeeper.getArithmeticMean(scores[count]);
             int med = statKeeper.getMedian(scores[count]);
             int max = statKeeper.getMax(scores[count]);
-            System.out.println(max);
             double meandian = statKeeper.getMeandian(scores[count]);
             if (avg > maxAvg) {
                 maxAvgOption = count;
